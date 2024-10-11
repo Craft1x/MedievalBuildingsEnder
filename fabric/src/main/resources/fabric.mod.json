@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "medievalend",
+  "version": "1.0.2",
+  "name": "Medieval Buildings [The End Edition]",
+  "description": "Adds new buildings to Minecraft",
+  "authors": [
+    "Lupin, Craft1x"
+  ],
+  "contact": {
+    "homepage": "https://linktr.ee/craft1x"
+  },
+  "license": "CC0-1.0",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.craftix.medievalend.MainEntrypoint"
+    ]
+  },
+  "mixins": [
+    "mixins.medievalend.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
